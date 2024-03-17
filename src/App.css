@@ -1,0 +1,59 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.filter-container {
+	margin: 20px 0 40px;
+}
+
+.filter-container select {
+	margin-left: 10px;
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+	padding-left: 4px;
+	outline: none;
+	border-radius: 8px;
+	border-color: lightgray;
+	cursor: pointer;
+}
+
+.table {
+	border-collapse: collapse;
+	width: 70%;
+	max-width: 800px;
+}
+
+.table td,
+.table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.table tr:hover {
+	background-color: #ddd;
+}
+
+.table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04aa6d;
+	color: white;
+}
+
+.sort-field {
+	cursor: pointer;
+}
+
+.sort-field img {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: text-bottom;
+}
